@@ -1,0 +1,107 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  color: #391574;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Header styling */
+header {
+  background: linear-gradient(135deg, #a01fb9, #ad49ad);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #fdd835;
+}
+
+/* Main content */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+  font-size: 2em;
+  color: #764ba2;
+  margin-bottom: 20px;
+  border-left: 6px solid #667eea;
+  padding-left: 15px;
+}
+
+main p,
+main li {
+  font-size: 17px;
+  margin-bottom: 14px;
+  line-height: 1.7;
+}
+
+/* Link list styling */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li a {
+  color: #667eea;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  padding-left: 20px;
+}
+
+ul li a::before {
+  content: "▶";
+  position: absolute;
+  left: 0;
+  color: #764ba2;
+  font-size: 0.8em;
+}
+
+ul li a:hover {
+  color: #4a00e0;
+  text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 25px;
+  background: linear-gradient(to right, #a34ec5, #764ba2);
+  color: white;
+  font-size: 14px;
+  margin-top: 50px;
+  border-radius: 12px;
+}
